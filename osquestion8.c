@@ -1,4 +1,4 @@
-~~~
+
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -88,4 +88,3 @@ printf("\n Average Wait Time : %d ",awt);
 printf("\n Average Turn Around Time : %d",atat);
 getch();
 }
-~~~
