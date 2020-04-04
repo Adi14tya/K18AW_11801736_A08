@@ -29,5 +29,5 @@ Ques 19:
         picking the gifts. After picking the gifts they are randomly arriving in the 
         billing counter. The accountant gives the preference to that student who has
         maximum number of gifts. Create a C program to define order of billed students?
-        ~~~
-#solution
+~~~
+#Solution
