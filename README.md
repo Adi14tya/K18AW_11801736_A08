@@ -13,3 +13,6 @@ a. Show the scheduling order of the processes using a Gantt chart.
 b. What is the turnaround time for each process?
 c. What is the waiting time for each process?
 d. What is the CPU utilization rate?
+
+
+Solution Proposed for the above problem : The above problem is based upon the priority of students who have more gifts .If the student has more gifts than he will get the bill first .If two students have same number of gifts then the student who camed first will get billed first .here the students are considered as the processes .The process having maximum brust time will be implemented first.
