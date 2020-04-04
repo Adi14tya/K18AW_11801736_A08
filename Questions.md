@@ -30,4 +30,19 @@ Ques 19:
         billing counter. The accountant gives the preference to that student who has
         maximum number of gifts. Create a C program to define order of billed students?
 ~~~
-#Solution
+# Solution
+~~~
+Ans 8:  In preemptive Round Robin scheduling we know how to find the turn around time and waiting time.
+        Turn Around Time (TAT) : Completion time - Arrival Time
+        Waiting Time (WT) : Turn Around Time - Burst Time
+        CPU utilization - Ideally the CPU would be busy 100% of the time, 
+        so as to waste 0 CPU cycles. On a real system CPU usage should 
+        range from 40% ( lightly loaded ) to 90% ( heavily loaded. )
+        
+
+Ans 19: The above problem is based upon the priority of students who have
+        more gifts .If the student has more gifts than he will get the bill first.
+        If two students have same number of gifts then the student who camed first 
+        will get billed first .here the students are considered as the processes.
+        The process having maximum brust time will be implemented first.
+~~~
