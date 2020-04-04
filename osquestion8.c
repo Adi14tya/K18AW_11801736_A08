@@ -5,18 +5,6 @@ int main()
  {
    int x,n,p[10],pp[10],bt[10],w[10],t[10],awt,atat,i,at[10],tq;
  
-   //n is number of process
-   //p is process
-   //pp is process priority
-   //bt is process burst time
-   //w is wait time
-   // t is turnaround time
-   //awt is average waiting time
-   //atat is average turnaround time
-   //at is arrival time
-   //tq is time qunatum
- 
- 
    printf("Enter the number of process : ");
    scanf("%d",&n);
    printf("Enter time quantum : ");
@@ -25,9 +13,7 @@ int main()
  
    for(i=0;i<n;i++)
     {
-      //cout<<"\nProcess["<<i+1<<"]:";
       printf("\n Process %d ",i+1);
-      //cin>>bt[i]>>pp[i]>>at[i];
       scanf("%d %d %d",&bt[i],&pp[i],&at[i]);
 	  p[i]=i+1;
     }
@@ -50,7 +36,6 @@ int j;
      p[i]=p[j];
      p[j]=x;
       }
-      //gc[i]=p[j];
    }
 }
 w[0]=0;
